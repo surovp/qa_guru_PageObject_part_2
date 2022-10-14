@@ -5,7 +5,6 @@ from selene.support.conditions import have
 
 def test_form(open_and_close_form):
 
-
     pages.fill_fullname("Ivan", "Ivanov")
     pages.fill_user_email("ivan123@test.com")
     controls.select_gender_male()
